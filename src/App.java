@@ -26,9 +26,10 @@ public class App {
         Cell end = new Cell(3, 3);
 
         List<MazeSolve> soluciones = Arrays.asList(
-            new MazeSolverRecursivo(),
-            new MazeSolveBFS(),
-            new MazeSolverDPB());
+            //new MazeSolverRecursivo(),
+            //new MazeSolveBFS()
+            //new MazeSolverDPB()
+            );
 
         List<MazeSolve> solucionesDOS = new ArrayList<>();
         solucionesDOS.add(new MazeSolverRecursivo());

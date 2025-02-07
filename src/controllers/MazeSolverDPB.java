@@ -15,7 +15,7 @@ public class MazeSolverDPB implements MazeSolve{
 
     @Override
     public List<Cell> getPath(Maze maze, boolean[][] grid, Cell start, Cell end) {
-        System.out.println("Implementacion BFS");
+        System.out.println("Implementacion DPB");
         List<Cell> lista = new ArrayList<>();
         if(grid == null || grid.length == 0) 
         return lista;
